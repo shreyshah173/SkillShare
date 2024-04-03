@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <div class="hidden lg:block">
+      <div class="main lg:flex px-40 sm:block">
+        <div class="left w-1/12 lg:w-2/12 lg:px-2 lg:block md:block hidden">
+          <div>
+            <a class="block w-full rounded-md px-4 py-2 hover:bg-gray-200"
+              >All Classes</a
+            >
+            <span class="text-sm">CREATE</span>
+            <hr class="border-t border-gray-400" />
+            <a class="block w-full rounded-md px-4 py-2 hover:bg-gray-200 mt-1"
+              >Animation</a
+            >
+            <a class="block w-full rounded-md px-4 py-2 hover:bg-gray-200"
+              >Creative Writing</a
+            >
+            <a class="block w-full rounded-md px-4 py-2 hover:bg-gray-200"
+              >Film & Video</a
+            >
+            <a class="block w-full rounded-md px-4 py-2 hover:bg-gray-200"
+              >Fine Art</a
+            >
+            <a class="block w-full rounded-md px-4 py-2 hover:bg-gray-200"
+              >Graphic Design</a
+            >
+            <a class="block w-full rounded-md px-4 py-2 hover:bg-gray-200"
+              >Illustration</a
+            >
+            <a class="block w-full rounded-md px-4 py-2 hover:bg-gray-200"
+              >Music</a
+            >
+            <a class="block w-full rounded-md px-4 py-2 hover:bg-gray-200"
+              >Photography</a
+            >
+            <a class="block w-full rounded-md px-4 py-2 hover:bg-gray-200"
+              >UI/UX Design</a
+            >
+            <span class="text-sm">BUILD</span>
+            <hr class="border-t border-gray-400" />
+            <a class="block w-full rounded-md px-4 py-2 hover:bg-gray-200 mt-1"
+              >Freelance & Entrepreneurship</a
+            >
+            <a class="block w-full rounded-md px-4 py-2 hover:bg-gray-200 mt-1"
+              >Marketing</a
+            >
+            <span class="text-sm">THRIVE</span>
+            <hr class="border-t border-gray-400" />
+            <a class="block w-full rounded-md px-4 py-2 hover:bg-gray-200 mt-1"
+              >Lifestyle</a
+            >
+            <a class="block w-full rounded-md px-4 py-2 hover:bg-gray-200 mt-1"
+              >Productivity</a
+            >
+          </div>
+        </div>
+        <div class="right px-2 w-10/12">
+          <div class="rounded-lg h-60 w-auto overflow-hidden lg:relative">
+            <!-- <img class="rounded-2xl" src="https://static.skillshare.com/cdn-cgi/image/quality=80,width=1000,format=auto/assets/images/browse/browse-banner-4.webp" alt=""> -->
+            <div class="relative rounded-2xl overflow-hidden">
+              <img
+                src="https://static.skillshare.com/cdn-cgi/image/quality=80,width=1000,format=auto/assets/images/browse/browse-banner-4.webp"
+                alt=""
+              />
+              <div
+                class="absolute inset-0 bg-gradient-to-r from-black to-transparent"
+              ></div>
+            </div>
+            <div class="absolute inset-0 flex justify-left">
+              <div class="bg-tansparent ml-8 mt-8 text-white">
+                <h2 class="text-5xl font-bold">Online UI/UX Design Class</h2>
+                <p class="mt-4 font-bold">
+                  Find what facinates you as you explore these UI/UX classes
+                </p>
+                <button
+                  class="h-12 w-36 bg-green-400 rounded-lg mt-6 font-bold"
+                >
+                  Start for free
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="flex mt-8 flex-wrap">
+            <h4 class="mr-2">RELATED SKILLS</h4>
+            <button
+              class="mr-2 border border-black rounded-md hover:bg-sky-700"
+            >
+              <h4 class="px-6">Product Design</h4>
+            </button>
+            <button
+              class="mr-2 border border-black rounded-md hover:bg-sky-700"
+            >
+              <h4 class="px-6">Web Design</h4>
+            </button>
+            <button
+              class="mr-2 border border-black rounded-md hover:bg-sky-700"
+            >
+              <h4 class="px-6">Wire Framing</h4>
+            </button>
+            <button
+              class="mr-2 border border-black rounded-md hover:bg-sky-700"
+            >
+              <h4 class="px-6">Mobile Design</h4>
+            </button>
+            <button
+              class="mr-2 border border-black rounded-md hover:bg-sky-700"
+            >
+              <h4 class="px-6">User Experience</h4>
+            </button>
+            <button
+              class="mr-2 mt-4 border border-black rounded-md hover:bg-sky-700"
+            >
+              <h4 class="px-6">Prototyping</h4>
+            </button>
+            <button
+              class="mr-2 mt-4 border border-black rounded-md hover:bg-sky-700"
+            >
+              <h4 class="px-6">UX Design</h4>
+            </button>
+            <button
+              class="mr-2 mt-4 border border-black rounded-md hover:bg-sky-700"
+            >
+              <h4 class="px-6">UI Design</h4>
+            </button>
+            <button
+              class="mr-2 mt-4 border border-black rounded-md hover:bg-sky-700"
+            >
+              <h4 class="px-6">App Design</h4>
+            </button>
+            <button
+              class="mr-2 mt-4 border border-black rounded-md hover:bg-sky-700"
+            >
+              <h4 class="px-6">Adobe XD</h4>
+            </button>
+          </div>
+          <hr class="border-t border-gray-400 mt-6" />
+          <div class="flex justify-between mt-2">
+            <div>
+              <p class="mb-2">Sort By</p>
+              <select
+                name="cars"
+                id="cars"
+                class="border border-black rounded-md p-1 mt-1 mr-8"
+              >
+                <option value="volvo">Popular</option>
+                <option value="mercedes">Trending</option>
+              </select>
+              <select
+                name="cars"
+                id="cars"
+                class="border border-black rounded-md p-1 mt-1"
+              >
+                <option value="volvo">Last 6 Months</option>
+                <option value="mercedes">All Time</option>
+                <option value="volvo">Last Month</option>
+                <option value="volvo">Last Week</option>
+              </select>
+            </div>
+            <div>
+              <p class="mb-3">FILTER BY</p>
+              <div class="flex">
+                <input
+                  type="checkbox"
+                  id="myCheckbox"
+                  class="h-6 w-6 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded"
+                />
+                <label
+                  for="myCheckbox"
+                  class="ml-3 block text-md text-gray-900 mr-1"
+                >
+                  < 15 min</label
+                >
+                <input
+                  type="checkbox"
+                  id="myCheckbox"
+                  class="h-6 w-6 ml-3 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded"
+                />
+                <label
+                  for="myCheckbox"
+                  class="ml-3 block text-md text-gray-900"
+                >
+                  15-30 min</label
+                >
+                <input
+                  type="checkbox"
+                  id="myCheckbox"
+                  class="h-6 w-6 ml-3 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded"
+                />
+                <label for="myCheckbox" class="ml-3 block text-md text-gray-900"
+                  >30-60 min</label
+                >
+                <input
+                  type="checkbox"
+                  id="myCheckbox"
+                  class="h-6 w-6 ml-3 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded"
+                />
+                <label for="myCheckbox" class="ml-3 block text-md text-gray-900"
+                  >>60 min</label
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="flex flex-wrap mt-10">
+            <div
+              class="w-64 bg-white rounded-lg shadow-md overflow-hidden mx-4"
+            >
+              <div>
+                <img src="./img/Screenshot 2024-04-03 182148.png" alt="" />
+              </div>
+              <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">
+                  Figma UI UX Design Essentials
+                </div>
+                <p class="text-gray-700 text-base">By Daniel Scott</p>
+              </div>
+              <div class="px-6 pt-4 pb-2 border-t border-gray-200">
+                <div class="flex justify-between items-center">
+                  <p class="text-gray-700 text-base">Students enrolled</p>
+                  <p class="text-gray-900 font-bold text-base">32,219</p>
+                </div>
+                <div class="flex justify-between items-center pt-2">
+                  <p class="text-gray-700 text-base">Last updated</p>
+                  <p class="text-gray-900 font-bold text-base">11h 50m</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="w-64 bg-white rounded-lg shadow-md overflow-hidden mx-4"
+            >
+              <div>
+                <img src="./img/Screenshot 2024-04-03 182148.png" alt="" />
+              </div>
+              <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">
+                  Figma UI UX Design Essentials
+                </div>
+                <p class="text-gray-700 text-base">By Daniel Scott</p>
+              </div>
+              <div class="px-6 pt-4 pb-2 border-t border-gray-200">
+                <div class="flex justify-between items-center">
+                  <p class="text-gray-700 text-base">Students enrolled</p>
+                  <p class="text-gray-900 font-bold text-base">32,219</p>
+                </div>
+                <div class="flex justify-between items-center pt-2">
+                  <p class="text-gray-700 text-base">Last updated</p>
+                  <p class="text-gray-900 font-bold text-base">11h 50m</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="w-64 bg-white rounded-lg shadow-md overflow-hidden mx-4"
+            >
+              <div>
+                <img src="./img/Screenshot 2024-04-03 182148.png" alt="" />
+              </div>
+              <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">
+                  Figma UI UX Design Essentials
+                </div>
+                <p class="text-gray-700 text-base">By Daniel Scott</p>
+              </div>
+              <div class="px-6 pt-4 pb-2 border-t border-gray-200">
+                <div class="flex justify-between items-center">
+                  <p class="text-gray-700 text-base">Students enrolled</p>
+                  <p class="text-gray-900 font-bold text-base">32,219</p>
+                </div>
+                <div class="flex justify-between items-center pt-2">
+                  <p class="text-gray-700 text-base">Last updated</p>
+                  <p class="text-gray-900 font-bold text-base">11h 50m</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="w-64 bg-white rounded-lg shadow-md overflow-hidden mx-4 my-4"
+            >
+              <div>
+                <img src="./img/Screenshot 2024-04-03 182148.png" alt="" />
+              </div>
+              <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">
+                  Figma UI UX Design Essentials
+                </div>
+                <p class="text-gray-700 text-base">By Daniel Scott</p>
+              </div>
+              <div class="px-6 pt-4 pb-2 border-t border-gray-200">
+                <div class="flex justify-between items-center">
+                  <p class="text-gray-700 text-base">Students enrolled</p>
+                  <p class="text-gray-900 font-bold text-base">32,219</p>
+                </div>
+                <div class="flex justify-between items-center pt-2">
+                  <p class="text-gray-700 text-base">Last updated</p>
+                  <p class="text-gray-900 font-bold text-base">11h 50m</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="w-64 bg-white rounded-lg shadow-md overflow-hidden mx-4 my-4"
+            >
+              <div>
+                <img src="./img/Screenshot 2024-04-03 182148.png" alt="" />
+              </div>
+              <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">
+                  Figma UI UX Design Essentials
+                </div>
+                <p class="text-gray-700 text-base">By Daniel Scott</p>
+              </div>
+              <div class="px-6 pt-4 pb-2 border-t border-gray-200">
+                <div class="flex justify-between items-center">
+                  <p class="text-gray-700 text-base">Students enrolled</p>
+                  <p class="text-gray-900 font-bold text-base">32,219</p>
+                </div>
+                <div class="flex justify-between items-center pt-2">
+                  <p class="text-gray-700 text-base">Last updated</p>
+                  <p class="text-gray-900 font-bold text-base">11h 50m</p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="w-64 bg-white rounded-lg shadow-md overflow-hidden mx-4 my-4"
+            >
+              <div>
+                <img src="./img/Screenshot 2024-04-03 182148.png" alt="" />
+              </div>
+              <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2">
+                  Figma UI UX Design Essentials
+                </div>
+                <p class="text-gray-700 text-base">By Daniel Scott</p>
+              </div>
+              <div class="px-6 pt-4 pb-2 border-t border-gray-200">
+                <div class="flex justify-between items-center">
+                  <p class="text-gray-700 text-base">Students enrolled</p>
+                  <p class="text-gray-900 font-bold text-base">32,219</p>
+                </div>
+                <div class="flex justify-between items-center pt-2">
+                  <p class="text-gray-700 text-base">Last updated</p>
+                  <p class="text-gray-900 font-bold text-base">11h 50m</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sm:block md:block lg:hidden">
+      
+      <div>
+        <div class="relative inline-flex self-center">
+          <svg
+            class="text-white bg-purple-700 absolute top-0 right-0 m-2 pointer-events-none p-2 rounded"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="40px"
+            height="40px"
+            viewBox="0 0 38 22"
+            version="1.1"
+          >
+            <title>F09B337F-81F6-41AC-8924-EC55BA135736</title>
+            <g
+              id="ZahnhelferDE—Design"
+              stroke="none"
+              stroke-width="1"
+              fill="none"
+              fill-rule="evenodd"
+            >
+              <g
+                id="ZahnhelferDE–Icon&amp;Asset-Download"
+                transform="translate(-539.000000, -199.000000)"
+                fill="#ffffff"
+                fill-rule="nonzero"
+              >
+                <g
+                  id="Icon-/-ArrowRight-Copy-2"
+                  transform="translate(538.000000, 183.521208)"
+                >
+                  <polygon
+                    id="Path-Copy"
+                    transform="translate(20.000000, 18.384776) rotate(135.000000) translate(-20.000000, -18.384776) "
+                    points="33 5.38477631 33 31.3847763 29 31.3847763 28.999 9.38379168 7 9.38477631 7 5.38477631"
+                  />
+                </g>
+              </g>
+            </g>
+          </svg>
+          <select
+            class="text-2xl inset-1 font-bold rounded border-2 border-purple-700 text-gray-600 h-14 w-[100vw] pl-5 pr-10 bg-white hover:border-gray-400 focus:outline-none appearance-none"
+          >
+            <option>UI/UX Design</option>
+            <option>UI/UX Design</option>
+            <option>UI/UX Design</option>
+            <option>UI/UX Design</option>
+            <option>UI/UX Design</option>
+            <option>UI/UX Design</option>
+            <option>UI/UX Design</option>
+            <option>UI/UX Design</option>
+            <option>Z-A</option>
+          </select>
+        </div>
+      </div>
+      <div class="relative rounded-lg h-56 w-auto overflow-hidden">
+        <img
+          src="https://static.skillshare.com/cdn-cgi/image/quality=80,width=1000,format=auto/assets/images/browse/browse-banner-4.webp"
+          alt=""
+          class="rounded-2xl"
+        />
+
+        <div
+          class="absolute inset-0 flex flex-col bg-black bg-opacity-50"
+        >
+          <p class="text-white font-bold mt-12">
+            Find what fascinates you as you explore these UI/UX classes
+          </p>
+          <button
+            class="h-12 w-36 bg-green-400 rounded-lg mt-6 font-bold text-white"
+          >
+            Start for free
+          </button>
+        </div>
+      </div>
+      <div><hr class="border-t border-gray-400 mt-6" />
+        <div class="flex justify-between  mt-2">
+          <div class="grid w-36 h-auto">
+            <p class="mb-2">Sort By</p>
+            <select
+              name="cars"
+              id="cars"
+              class="border border-black rounded-md p-1 mt-1 mr-8"
+            >
+              <option value="volvo">Popular</option>
+              <option value="mercedes">Trending</option>
+            </select>
+            <select
+              name="cars"
+              id="cars"
+              class="border border-black rounded-md p-1 mt-1"
+            >
+              <option value="volvo">Last 6 Months</option>
+              <option value="mercedes">All Time</option>
+              <option value="volvo">Last Month</option>
+              <option value="volvo">Last Week</option>
+            </select>
+          </div>
+          <div>
+            <p class="mb-3">FILTER BY</p>
+            <div class="flex">
+                <div class="grid">
+                    <div class="flex">
+              <input
+                type="checkbox"
+                id="myCheckbox"
+                class="h-6 w-6 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded"
+              />
+              <label
+                for="myCheckbox"
+                class="ml-3 block text-md text-gray-900 mr-1"
+              >
+                <15 min</label
+              >
+            </div>
+            <div class="flex">
+              <input
+                type="checkbox"
+                id="myCheckbox"
+                class="h-6 w-6 ml-3 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded"
+              />
+              <label
+                for="myCheckbox"
+                class="ml-3 block text-md text-gray-900"
+              >
+                15-30 min</label
+              >
+            </div>
+            </div>
+            <div class="grid">
+                <div class="flex">
+              <input
+                type="checkbox"
+                id="myCheckbox"
+                class="h-6 w-6 ml-3 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded"
+              />
+              <label for="myCheckbox" class="ml-3 block text-md text-gray-900"
+                >30-60 min</label
+              >
+            </div>
+            <div class="flex">
+              <input
+                type="checkbox"
+                id="myCheckbox"
+                class="h-6 w-6 ml-3 text-indigo-600 focus:ring-indigo-500 border-gray-300 rounded"
+              />
+              <label for="myCheckbox" class="ml-3 block text-md text-gray-900"
+                >>60 min</label
+              >
+            </div>
+            </div>
+            </div>
+          </div>
+        </div><div>
+        <div className='mt-20 px-4 lg:px-24 flex w-full items-center'>
+          <div class="flex justify-center">
+
+            <div className='grid gap-8 my-12 lg:grid-cols-4 sm:grid-cols-2 md:grid-cols-3 grid-cols-1'>
+              <div class="w-100 bg-white rounded-lg shadow-md overflow-hidden mx-4 mt-4">
+                <div>
+                  <img src="./img/Screenshot 2024-04-03 182148.png" alt="" />
+                </div>
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">Figma UI UX Design Essentials</div>
+                  <p class="text-gray-700 text-base">By Daniel Scott</p>
+                </div>
+                <div class="px-6 pt-4 pb-2 border-t border-gray-200">
+                  <div class="flex justify-between items-center">
+                    <p class="text-gray-700 text-base">Students enrolled</p>
+                    <p class="text-gray-900 font-bold text-base">32,219</p>
+                  </div>
+                  <div class="flex justify-between items-center pt-2">
+                    <p class="text-gray-700 text-base">Last updated</p>
+                    <p class="text-gray-900 font-bold text-base">11h 50m</p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-100 bg-white rounded-lg shadow-md overflow-hidden mx-4 mt-4">
+                <div>
+                  <img src="./img/Screenshot 2024-04-03 182148.png" alt="" />
+                </div>
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">Figma UI UX Design Essentials</div>
+                  <p class="text-gray-700 text-base">By Daniel Scott</p>
+                </div>
+                <div class="px-6 pt-4 pb-2 border-t border-gray-200">
+                  <div class="flex justify-between items-center">
+                    <p class="text-gray-700 text-base">Students enrolled</p>
+                    <p class="text-gray-900 font-bold text-base">32,219</p>
+                  </div>
+                  <div class="flex justify-between items-center pt-2">
+                    <p class="text-gray-700 text-base">Last updated</p>
+                    <p class="text-gray-900 font-bold text-base">11h 50m</p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-100 bg-white rounded-lg shadow-md overflow-hidden mx-4 mt-4">
+                <div>
+                  <img src="./img/Screenshot 2024-04-03 182148.png" alt="" />
+                </div>
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">Figma UI UX Design Essentials</div>
+                  <p class="text-gray-700 text-base">By Daniel Scott</p>
+                </div>
+                <div class="px-6 pt-4 pb-2 border-t border-gray-200">
+                  <div class="flex justify-between items-center">
+                    <p class="text-gray-700 text-base">Students enrolled</p>
+                    <p class="text-gray-900 font-bold text-base">32,219</p>
+                  </div>
+                  <div class="flex justify-between items-center pt-2">
+                    <p class="text-gray-700 text-base">Last updated</p>
+                    <p class="text-gray-900 font-bold text-base">11h 50m</p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-100 bg-white rounded-lg shadow-md overflow-hidden mx-4 mt-4">
+                <div>
+                  <img src="./img/Screenshot 2024-04-03 182148.png" alt="" />
+                </div>
+                <div class="px-6 py-4">
+                  <div class="font-bold text-xl mb-2">Figma UI UX Design Essentials</div>
+                  <p class="text-gray-700 text-base">By Daniel Scott</p>
+                </div>
+                <div class="px-6 pt-4 pb-2 border-t border-gray-200">
+                  <div class="flex justify-between items-center">
+                    <p class="text-gray-700 text-base">Students enrolled</p>
+                    <p class="text-gray-900 font-bold text-base">32,219</p></div>
+    </div>
+  </body>
+</html>
